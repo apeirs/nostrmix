@@ -1,0 +1,7 @@
+querySync via ws://127.0.0.1:7777/nos.lol ws://127.0.0.1:7777/relay.primal.net ws://127.0.0.1:7777/nostr.mom ws://127.0.0.1:7777/offchain.pub
+ -> 19 events, 19 verified by nostr-tools, 7.2s
+ publish ws://127.0.0.1:7777/nos.lol: fulfilled ""
+ publish ws://127.0.0.1:7777/relay.primal.net: fulfilled ""
+ publish ws://127.0.0.1:7777/nostr.mom: fulfilled ""
+ publish ws://127.0.0.1:7777/offchain.pub: fulfilled ""
+ publish took 1.2s

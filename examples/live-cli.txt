@@ -1,0 +1,31 @@
+$ nostrmix publish nos.lol relay.primal.net nostr.mom offchain.pub relay.snort.social ephemeral.json
+event df7d8b44ef69a02a0522f5b47dcc0de80119f99559492e1a5d43e0bc3c12a7b8 (kind 20001) verified: id and BIP-340 signature OK
+RELAY               ACCEPTED  SECONDS  MESSAGE
+nos.lol             true      14.7     
+relay.primal.net    true      7.9      
+nostr.mom           true      9.2      
+offchain.pub        true      8.6      
+relay.snort.social  true      9.6      ephemeral: will not be stored
+accepted by 5 of 5 relays
+
+$ nostrmix req nos.lol relay.primal.net --kinds 1 --tag t=bitcoin --limit 3 | head -c 300
+nos.lol                      3 events (0 invalid) EOSE in 10.6s over the mixnet
+relay.primal.net             3 events (0 invalid) EOSE in 11.0s over the mixnet
+3 unique events
+{"id":"98a2f686048167b43b29c13ee0d56b4ec6d7261a84066678fb59512c1be19166","pubkey":"b3d9330123df9dd2c995531e685f04712b1e887ccb768578f5b9afe03cbe28b0","created_at":1792145729,"kind":1,"tags":[["r","https://journalducoin.com/actualites/zcash-litecoin-bitcoin-cash-ether-point-altcoins"],["t","cryptomonn
+$ nostrmix info nostr.wine
+{
+  "contact": "wino@nostr.wine",
+  "description": "A paid nostr relay for wine enthusiasts and everyone else.",
+  "fees": {
+    "admission": [
+      {
+        "amount": 18888000,
+        "unit": "msats"
+      }
+    ]
+  },
+  "icon": "https://image.nostr.build/30acdce4a81926f386622a07343228ae99fa68d012d54c538c0b2129dffe400c.png",
+$ (tampered) nostrmix publish nos.lol bad.json
+nostrmix: event does not verify (id mismatch: event says df7d8b44ef69…, content hashes to ecb704de3bd6…); relays would reject it. --no-verify sends it anyway
+exit 1

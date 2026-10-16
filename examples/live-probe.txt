@@ -1,0 +1,10 @@
+RELAY               OK     CONNECT  EOSE  EVENTS  NOTE
+nos.lol             true   10.5s    2.0s  3       
+relay.primal.net    true   8.5s     1.2s  3       
+nostr.wine          true   9.4s     3.1s  3       
+relay.snort.social  true   9.7s     1.8s  3       
+offchain.pub        true   8.0s     1.1s  3       
+nostr.mom           true   7.9s     1.2s  3       
+relay.damus.io      false  7.4s     -     0       failed to get reader: context deadline exceeded
+relay.nostr.band    false  -        -     0       relay relay.nostr.band over the mixnet: failed to WebSocket dial: failed to send handshake…
+6 of 8 relays served signed events through the mixnet

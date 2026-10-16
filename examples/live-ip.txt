@@ -1,0 +1,2 @@
+https://api.ipify.org sees this request coming from 79.141.169.35 (6.15s over the mixnet)
+= Nym node 2002 (HK, exit gateway: true) in the nym-api node list

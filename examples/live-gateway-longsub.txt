@@ -1,0 +1,2 @@
+connected in 4.8s
+live subscription held 245s, 72 new notes streamed in real time (first after 8.7s)

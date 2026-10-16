@@ -1,0 +1,12 @@
+12:10:18 nostrmix 0.1.0 gateway on ws://127.0.0.1:7777  ->  Nym mixnet (socks5 127.0.0.1:1090, dns=doh)  ->  relays
+12:10:18 add relays to your client as ws://127.0.0.1:7777/<relay host>, e.g. ws://127.0.0.1:7777/relay.damus.io
+12:10:32 #1 - -> nos.lol open (mixnet handshake 2.2s)
+12:10:35 #3 - -> nostr.mom open (mixnet handshake 4.4s)
+12:10:35 #4 - -> offchain.pub open (mixnet handshake 4.9s)
+12:10:36 #2 - -> relay.primal.net open (mixnet handshake 6.3s)
+12:10:40 #1 - -> nos.lol closed by client after 9s (3 msgs up, 8 down): close 1005
+12:10:40 #3 - -> nostr.mom closed by client after 9s (3 msgs up, 7 down): close 1005
+12:10:40 #2 - -> relay.primal.net closed by client after 10s (3 msgs up, 9 down): close 1005
+12:10:40 #4 - -> offchain.pub closed by client after 10s (3 msgs up, 7 down): close 1005
+12:10:59 #5 - -> nos.lol open (mixnet handshake 4.8s)
+12:15:01 #5 - -> nos.lol closed by client after 4m8s (1 msgs up, 73 down): close 1000
